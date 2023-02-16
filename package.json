@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/Sycraxe/Kromer/issues"
   },
+  "scripts": {
+    "start": "electron ."
+  },
   "homepage": "https://github.com/Sycraxe/Kromer#readme",
   "devDependencies": {
     "electron": "^23.1.0"
