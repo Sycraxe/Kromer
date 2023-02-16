@@ -1,0 +1,19 @@
+{
+  "name": "kromer",
+  "version": "0.1.0",
+  "description": "Simple web-based text editor",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sycraxe/Kromer.git"
+  },
+  "author": "Sycraxe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sycraxe/Kromer/issues"
+  },
+  "homepage": "https://github.com/Sycraxe/Kromer#readme",
+  "devDependencies": {
+    "electron": "^23.1.0"
+  }
+}
