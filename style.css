@@ -21,8 +21,3 @@ body {
     height: 21vw;
     border: 0.2vw solid #1a1a1a
 }
-
-.page:hover {
-    border: 0.2vw solid #444;
-}
-
