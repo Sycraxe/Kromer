@@ -1,0 +1,28 @@
+body {
+    background: #1a1a1a;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pages {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    background: #242424;
+    border-radius: 10px;
+    width: 14.8vw;
+    height: 21vw;
+    border: 0.2vw solid #1a1a1a
+}
+
+.page:hover {
+    border: 0.2vw solid #444;
+}
+
