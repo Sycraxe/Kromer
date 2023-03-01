@@ -2,7 +2,7 @@
   "name": "kromer",
   "version": "0.1.0",
   "description": "Simple web-based text editor",
-  "main": "main.js",
+  "main": "main.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sycraxe/Kromer.git"
