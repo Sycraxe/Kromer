@@ -1,8 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const App = () => {
-    return <h1>Bonjour, monde !</h1>;
-};
+class App extends React.Component {
+    constructor() {
+        super({ width: '100%', height: '100%' })
+    }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+    render() {
+        return (
+            <Page></Page>
+        )
+    }
+}
+
+function Page() {
+    return (
+        <div>
+            <div></div>
+            <Title></Title>
+            <div></div>
+        </div>
+    )
+}
+
+function Title() {
+    return <p></p>
+}
+
+ReactDOM.render(<App/>, document.getElementById('app'))
