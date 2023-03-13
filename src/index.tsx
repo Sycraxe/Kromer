@@ -1,30 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {createRoot} from "react-dom/client"
+import {App} from "./components/app"
 
-class App extends React.Component {
-    constructor() {
-        super({ width: '100%', height: '100%' })
-    }
-
-    render() {
-        return (
-            <Page></Page>
-        )
-    }
-}
-
-function Page() {
-    return (
-        <div>
-            <div></div>
-            <Title></Title>
-            <div></div>
-        </div>
-    )
-}
-
-function Title() {
-    return <p></p>
-}
-
-ReactDOM.render(<App/>, document.getElementById('app'))
+createRoot(document.getElementById('app')).render(<App/>)
